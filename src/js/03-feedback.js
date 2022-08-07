@@ -60,7 +60,7 @@ function onFormSubmit(e) {
     } = e.currentTarget;
 
     if (name.value === '' || email.value === '') {
-        return console.log('Будь ласка, заповніть усі поля!');
+        alert('Будь ласка, заповніть усі поля!');
     }
     const formData = {
         email: email.value,
